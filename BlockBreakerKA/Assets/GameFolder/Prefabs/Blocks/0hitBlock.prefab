@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 6222494479319569004}
   - component: {fileID: 1534672605725872925}
-  - component: {fileID: 1467143752453339079}
-  - component: {fileID: -2692754195011405193}
+  - component: {fileID: -8870698069720190392}
+  - component: {fileID: -8897888411938472849}
   m_Layer: 0
-  m_Name: 2hitBlock
+  m_Name: 0hitBlock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,8 +73,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 675764a1dde651d40a6f4f892b48f9c1, type: 3}
-  m_Color: {r: 0, g: 0.048797846, b: 1, a: 1}
+  m_Sprite: {fileID: -801610706629967695, guid: 9810a3b1bdfb5a741813f05a38f611d0, type: 3}
+  m_Color: {r: 0.754717, g: 0.754717, b: 0.754717, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -84,21 +84,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1467143752453339079
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1858191817714830880}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e3897ccead66b34c9bd719613b099e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  can: 2
-  vurulmaSayisi: 0
---- !u!61 &-2692754195011405193
+--- !u!61 &-8870698069720190392
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -124,3 +110,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.7, y: 0.3}
   m_EdgeRadius: 0
+--- !u!114 &-8897888411938472849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858191817714830880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e3897ccead66b34c9bd719613b099e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  can: 0
+  blokGorunumleri: []
